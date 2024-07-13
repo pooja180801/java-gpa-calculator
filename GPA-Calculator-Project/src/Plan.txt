@@ -1,0 +1,24 @@
+Class - DbConnection
+-userName
+-url
+-password
+
+Class - User
+-userId
+-userName
+-courseDuration
+
+Class - GpaCalculator
+-addResults
+-viewResults
+-viewRecords
+-deleteRecords
+-exportData
+-clearRecords
+
+Class - Application
+-main
+
+Database
+user - userid, username, course_duration
+results - record_id, user_id, course_code, grade, credits
