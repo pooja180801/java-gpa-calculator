@@ -6,7 +6,7 @@ public class DbConnection {
    private static String url = "jdbc:mysql://localhost:3306/gpacalculator";
    private static String username = "root";
 
-   private static String password = "2001@";
+   private static String password = "";
 
 
    public static Connection getConnection() throws SQLException {
